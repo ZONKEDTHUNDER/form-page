@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+        <style>
+            #pretty1{
+                background-color: pink; color: blueviolet; font-family: fantasy;
+            }
+            #pretty2{
+                background-color:chocolate; color: rgb(177, 226, 43); font-family: fantasy;
+            }
+            #pretty3{
+                background-color: rgb(192, 255, 200); color: rgb(43, 137, 226); font-family: fantasy;
+            }
+            #submit{
+                background-color: rgb(255, 210, 192); color: rgb(226, 43, 43); font-family: fantasy;
+            }
+            #scroll1{ overflow: scroll;
+                
+            }
+            ::-webkit-scrollbar {
+                width: 50px;
+                height: 50px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: burlywood;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: orangered;  
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: red;  
+            }
+
+            ::-webkit-scrollbar-corner {
+                border-right: 1px solid burlywood;
+                border-bottom: 1px solid burlywood;
+            }
+                
+           #background1{
+               background: url('data:image/jpeg;base64,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');
+           }
+           #background2{
+               background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqkALl6QpIPg7xC4yiAuOV5TqSwjiH_qoqTJgZybwSsYZPMfEcCPI3k3kNxtGqly7USe8&usqp=CAU');
+           }
+           #background3{
+               background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0zDesSkZAPLlJ2wBtEe0ym7RNAAFhCKiTTg&usqp=CAU');
+           }
+           #bp1{
+            border:10px dotted #b7582c;
+           }
+           #bp2{
+               border:10px dashed royalblue;
+           }
+           #bp3{border:10px groove rebeccapurple}
+           #bp4{
+               border:10px double goldenrod
+           }
+           #bp5{
+               border:10px ridge orchid
+           }
+           #bp6{ 
+               border-top: 10px ridge blueviolet; border-left: 10px dotted burlywood ; border-bottom: 10px dashed green; border-right: 10px inset navajowhite;
+           }
+        </style>
+    </head>
+	<body>
+        <h1>Different looks for text and textarea boxes</h1>
+        <form action="" method="POST">
+            <h3>Test Color</h3>
+            <textarea name="color1" id="pretty1">Put comments here</textarea>
+            <textarea name="color1" id="pretty2">Put comments here</textarea>
+            <textarea name="color1" id="pretty3">Put comments here</textarea>
+            
+            <h3>Button Color</h3>
+            <input type="submit" value="Submit" id="submit">
+            
+            <h3>Scroll Bar</h3>
+            <textarea name="color1" id="scroll1">Put comments here</textarea>
+
+            <h3>Background Picture</h3>
+            <textarea name="color1" id="background1">Put comments here</textarea>
+            <textarea name="color1" id="background2">Put comments here</textarea>
+            <textarea name="color1" id="background3">Put comments here</textarea>
+
+            <h3>Border styles and colors</h3>
+            <textarea name="color1" id="bp1">Put comments here</textarea>
+            <textarea name="color1" id="bp2">Put comments here</textarea>
+            <textarea name="color1" id="bp3">Put comments here</textarea>
+            <textarea name="color1" id="bp4">Put comments here</textarea>
+            <textarea name="color1" id="bp5">Put comments here</textarea>
+            <textarea name="color1" id="bp6">Put comments here</textarea>
+
+
+
+        </form>
+    </body>
+</html>
